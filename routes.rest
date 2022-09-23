@@ -41,11 +41,11 @@ DELETE http://localhost:8080/contacts/632beecf58e027abc7313329 HTTP/1.1
 
 // PRODUCTION Deploy
 ###
-GET https://lesson03-contacts.onrender.com/contacts
+GET https://contacts-pf57.onrender.com/contacts
 ###
-GET https://lesson03-contacts.onrender.com/contacts/63243351a3627fb019dda81c
+GET https://contacts-pf57.onrender.com/contacts/63243351a3627fb019dda81c
 ###
-POST https://lesson03-contacts.onrender.com/contacts HTTP/1.1
+POST https://contacts-pf57.onrender.com/contacts HTTP/1.1
 content-type: application/json
 
 {
@@ -56,7 +56,7 @@ content-type: application/json
     "birthday": "08/18/1989"
 }
 ###
-PUT https://lesson03-contacts.onrender.com/contacts/63243351a3627fb019dda81c HTTP/1.1
+PUT https://contacts-pf57.onrender.com/contacts/63243351a3627fb019dda81c HTTP/1.1
 content-type: application/json
 
 {
@@ -67,4 +67,4 @@ content-type: application/json
     "birthday": "03/17/2019"
 }
 ###
-DELETE https://lesson03-contacts.onrender.com/contacts/63243351a3627fb019dda81b HTTP/1.1
+DELETE https://contacts-pf57.onrender.com/contacts/63243351a3627fb019dda81b HTTP/1.1
