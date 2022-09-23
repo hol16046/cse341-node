@@ -62,8 +62,8 @@ content-type: application/json
 {
     "firstName": "Sammy",
     "lastName": "Holt",
-    "email": "sammyj@test.com",
-    "favoriteColor": "Purple",
+    "email": "sammyjean@test.com",
+    "favoriteColor": "Pink",
     "birthday": "03/17/2019"
 }
 ###
