@@ -1,17 +1,17 @@
-// LOCALHOST
-###
-GET http://localhost:8080/read
-###
-POST http://localhost:8080/read HTTP/1.1
-content-type: application/json
+# // LOCALHOST
+# ###
+# GET http://localhost:8080/read
+# ###
+# POST http://localhost:8080/read HTTP/1.1
+# content-type: application/json
 
-{
-    "title": "Thinking with Type",
-    "author": "Ellen Lupton",
-    "copyrightDate": "2010"
-}
-###
-
+# {
+#     "title": "Thinking with Type",
+#     "author": "Ellen Lupton",
+#     "copyrightDate": "2010"
+# }
+# ###
+#
 
 // PRODUCTION Deploy
 ###
