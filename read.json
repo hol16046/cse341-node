@@ -1,0 +1,17 @@
+{
+    "book": {
+        "title": "HTML & CSS: design and build websites",
+        "author": "Jon Duckett",
+        "copyrightDate": "2011"
+    },
+    "book2": {
+        "title": "Javascript & jQuery: interactive front-end web development",
+        "author": "Jon Duckett",
+        "copyrightDate": "2014"
+    },
+    "book3": {
+        "title": "Light and Lens: Photography in the Digital Age",
+        "author": "Robert Hirsch",
+        "copyrightDate": "2012"
+    }
+}

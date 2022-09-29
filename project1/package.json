@@ -1,0 +1,39 @@
+{
+  "name": "cse341-node",
+  "version": "1.0.0",
+  "description": "CSE 341 Fall 2022",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "swagger": "node ./swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hol16046/cse341-node.git"
+  },
+  "author": "Heather Holt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hol16046/cse341-node/issues"
+  },
+  "homepage": "https://github.com/hol16046/cse341-node#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jshint": "^2.13.5",
+    "mongodb": "^4.9.1",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "swagger-autogen": "^2.22.0"
+  }
+}
