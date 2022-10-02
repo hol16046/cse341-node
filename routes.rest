@@ -26,9 +26,9 @@
 
 // PRODUCTION Deploy
 ###
-GET https://https://library-63wh.onrender.com/read
+GET https://library-lesson06.onrender.com/read
 ###
-POST https://https://library-63wh.onrender.com/read HTTP/1.1
+POST https://library-lesson06.onrender.com/read HTTP/1.1
 content-type: application/json
 
 {
@@ -37,7 +37,7 @@ content-type: application/json
     "copyrightDate": "2013"
 }
 ###
-PUT https://https://library-63wh.onrender.com/read/63352a1ca9842ab2ee5ab526 HTTP/1.1
+PUT https://library-lesson06.onrender.com/read/63352a1ca9842ab2ee5ab526 HTTP/1.1
 content-type: application/json
 
 {
@@ -46,5 +46,5 @@ content-type: application/json
     "copyrightDate": "2004"
 }
 ###
-DELETE https://https://library-63wh.onrender.com/read/6335241304c4c18ae9284486 HTTP/1.1
+DELETE https://library-lesson06.onrender.com/read/6335241304c4c18ae9284486 HTTP/1.1
 content-type: application/json
