@@ -23,11 +23,14 @@
   "homepage": "https://github.com/hol16046/cse341-node#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "express-validator": "^6.14.2",
     "jshint": "^2.13.5",
     "mongodb": "^4.9.1",
-    "swagger-ui-express": "^4.5.0"
+    "swagger-ui-express": "^4.5.0",
+    "validatorjs": "^3.22.1"
   },
   "devDependencies": {
     "eslint": "^8.23.1",

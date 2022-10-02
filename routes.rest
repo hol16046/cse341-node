@@ -6,12 +6,23 @@
 # content-type: application/json
 
 # {
-#     "title": "Thinking with Type",
-#     "author": "Ellen Lupton",
-#     "copyrightDate": "2010"
+#    "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+#    "author": "Susan Cain",
+#    "copyrightDate": "2013"
 # }
 # ###
 #
+# PUT https://https://library-63wh.onrender.com/read/63352a1ca9842ab2ee5ab526 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "title": "Thinking with Type",
+#     "author": "Ellen Lupton",
+#     "copyrightDate": "2004"
+# }
+# ###
+# DELETE https://https://library-63wh.onrender.com/read/6335241304c4c18ae9284486 HTTP/1.1
+# content-type: application/json
 
 // PRODUCTION Deploy
 ###
@@ -21,7 +32,19 @@ POST https://https://library-63wh.onrender.com/read HTTP/1.1
 content-type: application/json
 
 {
+    "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+    "author": "Susan Cain",
+    "copyrightDate": "2013"
+}
+###
+PUT https://https://library-63wh.onrender.com/read/63352a1ca9842ab2ee5ab526 HTTP/1.1
+content-type: application/json
+
+{
     "title": "Thinking with Type",
     "author": "Ellen Lupton",
-    "copyrightDate": "2010"
+    "copyrightDate": "2004"
 }
+###
+DELETE https://https://library-63wh.onrender.com/read/6335241304c4c18ae9284486 HTTP/1.1
+content-type: application/json
