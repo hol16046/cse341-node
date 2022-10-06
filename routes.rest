@@ -47,4 +47,3 @@ content-type: application/json
 }
 ###
 DELETE https://library-lesson06.onrender.com/read/6335241304c4c18ae9284486 HTTP/1.1
-content-type: application/json
