@@ -62,7 +62,7 @@ const deleteBook = async (req, res) => {
         .getDb()
         .db('library')
         .collection('read')
-        .remove({ _id: userId }, true);
+        .remove({ _id: bookId }, true);
         console.log(response);
         if (response.deletedCount > 0) {
             res.status(204).send();
