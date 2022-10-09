@@ -22,17 +22,6 @@
         }
       }
     },
-    "/profile": {
-      "get": {
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/read/": {
       "get": {
         "description": "",

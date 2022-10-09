@@ -13,5 +13,15 @@
         "title": "Light and Lens: Photography in the Digital Age",
         "author": "Robert Hirsch",
         "copyrightDate": "2012"
+    },
+    "book4": {
+        "title":"Quiet: The Power of Introverts in a World That Can't Stop Talking",
+        "author": "Susan Cain",
+        "copyrightDate": "2013"
+    },
+    "book5": {
+        "title":"Thinking with Type",
+        "author": "Ellen Lupton",
+        "copyrightDate": "2004"
     }
 }
