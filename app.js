@@ -20,7 +20,7 @@ const config = {
 app.use(auth(config));
 
 app.get('/profile', requiresAuth(), (req, res) => {
-    res.sendFile(JSON.stringify(req.oidc.user));
+    res.send(JSON.stringify(req.oidc.user));
 }
 
 // req.isAuthenticated is provided from the auth router
