@@ -16,7 +16,7 @@ const getAll = (req, res) => {
         });
 };
 
-const createBook = async (req, res) => {
+const createAudio = async (req, res) => {
     const book = {
         title: req.body.title,
         author: req.body.author,
@@ -34,7 +34,7 @@ const createBook = async (req, res) => {
     }
 };
 
-const updateBook = async (req, res) => {
+const updateAudio = async (req, res) => {
     if(!ObjectId.isValid(req.params.id)) {
         res.status(400).json('Must use a valid book id to update a book.');
     }
@@ -61,7 +61,7 @@ const updateBook = async (req, res) => {
     }
 };
 
-const deleteBook = async (req, res) => {
+const deleteAudio = async (req, res) => {
     if (!ObjectId.isValid(req.params.id)) {
         res.status(400).json('Must use a valid book id to delete a book.');
     }
@@ -81,7 +81,7 @@ const deleteBook = async (req, res) => {
 
 module.exports = {
     getAll,
-    createBook,
-    updateBook,
-    deleteBook
+    createAudio,
+    updateAudio,
+    deleteAudio
 };
