@@ -6,10 +6,10 @@ const validation = require('../middleware/validate');
 
 router.get('/', listenController.getAll);
 
-router.post('/', validation.saveBook, listenController.createBook);
+router.post('/', validation.saveBook, listenController.createAudio);
 
-router.put('/:id', validation.saveBook, listenController.updateBook);
+router.put('/:id', validation.saveBook, listenController.updateAudio);
 
-router.delete('/:id', listenController.deleteBook);
+router.delete('/:id', listenController.deleteAudio);
 
 module.exports = router;
