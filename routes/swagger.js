@@ -8,9 +8,4 @@ router.get('/api-docs', requiresAuth(), swaggerUi.serve, swaggerUi.setup(swagger
     res.send(JSON.stringify(req.oidc.user));
 });
 
-
-app.get('/profile', requiresAuth(), (req, res) => {
-    res.send(JSON.stringify(req.oidc.user));
-});
-
 module.exports = router;
