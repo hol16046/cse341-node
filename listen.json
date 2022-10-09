@@ -1,0 +1,119 @@
+{
+    "book": {
+        "title": "Wicked: The Life and Times of the Wicked Witch of the West",
+        "author": "Gregory Maguire",
+        "narrator": "John McDonough",
+        "length": "19:42",
+        "language": "English",
+        "publisher": "Recorded Books",
+        "released": "11-16-05"
+    },
+    "book2": {
+        "title": "Seabiscuit: An American Legend",
+        "author": "Laura Hillenbrand",
+        "narrator": "George Newbern",
+        "length": "13:13",
+        "language": "English",
+        "publisher": "Random House Audio",
+        "released": "11-16-10"
+    },
+    "book3": {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "narrator": "Rob Inglis",
+        "length": "11:05",
+        "language": "English",
+        "publisher": "Recorded Books",
+        "released": "10-09-12"
+    },
+    "book4": {
+        "title": "Wildwood",
+        "author": "Ellis Carson, Colin Meloy",
+        "narrator": "Amanda Plummer",
+        "length": "15:52",
+        "language": "English",
+        "publisher": "HarperAudio",
+        "released": "08-30-11"
+    },
+    "book5": {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "narrator": "Jim Dale",
+        "length": "08:18",
+        "language": "English",
+        "publisher": "Pottermore Publishing",
+        "released": "11-20-15"
+    },
+    "book6": {
+        "title": "The Golden Compass",
+        "author": "Phillip Pullman",
+        "narrator": "Philip Pullman, Joanna Wyatt, Rupert Degas, Alison Dowling, Douglas Blackwell, Jill Shilling, Stephen Thorne, Sean Barrett, Garrick Hagon, John O'Connor, Susan Sheridan, Full Cast",
+        "length": "11:42",
+        "language": "English",
+        "publisher": "Listening Library",
+        "released": "10-23-03"
+    },
+    "book7": {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "narrator": "Stephen Fry",
+        "length": "05:51",
+        "language": "English",
+        "publisher": "Random House Audio",
+        "released": "04-28-05"
+    },
+    "book8": {
+        "title": "Artemis Fowl Movie Tie-In Edition",
+        "author": "Eoin Colfer",
+        "narrator": "Nathaniel Parker",
+        "length": "06:06",
+        "language": "English",
+        "publisher": "Listening Library",
+        "released": "12-28-03"
+    },
+    "book9": {
+        "title": "The Ballad of Songbirds and Snakes",
+        "author": "Suzanne Collins",
+        "narrator": "Santino Fontana",
+        "length": "16:16",
+        "language": "English",
+        "publisher": "Scholastic Audio",
+        "released": "05-19-20"
+    },
+    "book10": {
+        "title": "Burnout: The Secret of Unlocking the Stress Cycle",
+        "author": "Emily Nagoski, Amelia Nagoski",
+        "narrator": "Emily Nagoski, Amelia Nagoski",
+        "length": "07:01",
+        "language": "English",
+        "publisher": "Random House Audio",
+        "released": "03-26-19"
+    },
+    "book11": {
+        "title": "Spindle's End",
+        "author": "Robin McKinley",
+        "narrator": "Justine Eyre",
+        "length": "12:29",
+        "language": "English",
+        "publisher": "Tantor Audio",
+        "released": "10-01-19"
+    },
+    "book12": {
+        "title": "Eager: The Surprising, Secret Life of Beavers and Why They Matter",
+        "author": "Ben Goldfarb",
+        "narrator": "Will Damron",
+        "length": "11:24",
+        "language": "English",
+        "publisher": "Chelsea Green Publishing",
+        "released": "06-12-18"
+    },
+    "book13": {
+        "title": "Atlas of the Heart: Mapping Meaningful Connection and the Language of Human Experience",
+        "author": "Brene Brown",
+        "narrator": "Brene Brown",
+        "length": "08:29",
+        "language": "English",
+        "publisher": "Random House Audio",
+        "released": "02-14-22"
+    }
+}
