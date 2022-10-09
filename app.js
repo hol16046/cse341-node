@@ -21,7 +21,7 @@ app.use(auth(config));
 
 app.get('/profile', requiresAuth(), (req, res) => {
     res.send(JSON.stringify(req.oidc.user));
-}
+});
 
 // req.isAuthenticated is provided from the auth router
 app.get('/', (req, res) => {
