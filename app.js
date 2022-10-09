@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
-const { auth } = require('express-openid-connect');
+const { auth, requiresAuth } = require('express-openid-connect');
 require('dotenv').config();
 
 const port = process.env.PORT || 8080;
@@ -18,6 +18,10 @@ const config = {
 
 // auth router attaches /login, /logout, and /callback routes to the baseURL
 app.use(auth(config));
+
+app.get('/profile', requiresAuth(), (req, res) => {
+    res.sendFile(JSON.stringify(req.oidc.user));
+}
 
 // req.isAuthenticated is provided from the auth router
 app.get('/', (req, res) => {
